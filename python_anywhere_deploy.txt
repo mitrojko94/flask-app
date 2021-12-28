@@ -1,0 +1,9 @@
+*Idem u Web i kreiram novu web app
+*Za dobavljanje domena najbolji je namecheap.com!
+*Entry point je fajl koji se pokrece da startujemo aplikaciju, to se ne menja, ne dirati
+*Idemo u Files, vidimo sa leve strane ime naseg foldera, otvorimo main fajl i kopiramo nas kod, pomocu kojeg pokrecemo aplikaciju
+*Napravimo i dodamo ostale foldere i fajlove, tipa folder "templates" i u njega dodamo fajlove koje imamo u folderu templates, nase aplikacije
+*Odemo u nasu aplikaciju, i promenimo debug=False, jer to ne vazi za deply aplikaciju na internet, samo za vezbu
+*Idem u Web i idem na reload
+*Kliknem na URL, koji stoji iznad reload, konkretno pise "Configuration for..."
+*Ako ne radi, vratiti se u Web, spustiti do kraja i naci errors log i videti sta je greska

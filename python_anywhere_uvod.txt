@@ -1,0 +1,9 @@
+*Napraviti nalog na sajtu pythonanywhere
+*Consoles/kreirati bash console i kucati sta hocemo, nesto slicno Python shell. Izlazi se isto exit()
+*pwd gde se trenutno nalazimo, to znaci ta skracenica
+*Praviti novi fajl, tipa nano example.py i kucamo Python kod, koji hocemo. Da bi sacuvali ili izasli, moramo da pratimo uputstva koja su prikazana
+*Za pokretanje fajla, kucamo python3.9 example.py
+*Files/sta sve imamo od fajlova, tu isto mozemo da kreiramo novi fajl, ako hocemo
+*Web/kreiramo novu aplikaciju, web aplikaciju
+*Tasks/putanja za bilo koji Python fajl, tipa UTC '/home/ardit12345/example.py', definisem vreme i ova skripta se pokrece svaki dan, u odredjeno vreme. Posebno korisno za Web Scrapping
+*Databases/mogucnost kreiranja nove tabele, sa podacima

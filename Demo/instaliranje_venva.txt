@@ -1,0 +1,13 @@
+*Instalirati virtualenv (virtuelno okruzenje) sledecom komandom:
+    pip install virtualenv
+
+*Virtualenv treba da bude kreiran u istom nivou kao i ostali fajlove
+*Kreirati novi folder u koji staviti nase fajlove i folder, tipa folder demo(sa nasim kodovima) staviti u folder main, koji je napravljen
+*Otvoriti terminal i kucati sledecu komandu, za pokretanje virtualenv-a:
+    python -m venv virtual (virtual je proizvoljno ime foldera, m znaci da se ukljuce svi ostali modovi koje ima fajl)
+*Uci u virtual(ime foldera gde je Instaliran venv)/Scripts/python
+*Kad ovo uradimo, moramo da instaliramo sveze biblioteke za nas fajl, to radimo na sledeci nacin:
+    virtual/Scripts/pip install flask
+*Za pokretanje aplikacije, idemo sledecu komandu:
+    virtual/Scripts/python Demo(jer je to ume foldera gde je aplikacija)/ime_fajla_aplikacije.py
+

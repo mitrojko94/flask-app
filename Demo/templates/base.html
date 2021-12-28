@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css' )}}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Web application!</h1>
+            <strong><nav>
+                <ul class="menu">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>  <!--Trazi ime f-je-->
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                </ul>
+            </nav></strong>
+        </div>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
+
+<!--Napravili smo poseban div za smestaj content-a, to ce biti linkovi za home i about. Kad ovo uradimo
+odemo u home.html i ekstendujemo ovaj fajl(base.html) i u block content ubacimo sta hocemo da imamo na stranici home.html-->
