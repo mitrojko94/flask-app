@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<link rel="stylesheet" href={{cdn_css | safe}} type="text/css">  <!--Ucitavam JS i CSS fajl, link-->
+<script type="text/javascript" src={{cdn_js | safe}}></script>
+
+<div class="about">
+    <h1>About my plot!</h1>
+</div>
+
+{{script1 | safe}}  <!--Da bi se prikazao JS i HTML kod. Isto vazi i za div1-->
+{{div1 | safe}}
+
+{% endblock %}

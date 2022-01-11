@@ -1,0 +1,8 @@
+*U terminalu kucamo heroku login, popunimo sa nasim podacima
+*Zatim idemo git init
+*Zatim git add .
+*Zatim git commit -m "first commit"
+*Zatim heroku git:remote --app ime_aplikacije
+*Zatim heroku info
+*Zatim git push heroku master
+*Zatim heroku open
